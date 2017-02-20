@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="container">
+  <h1 class="handwrite">{{ site.post_categories[page.category]['name'] }}</h1>
+  <h2 class="handwrite">Posts
+    <a href="/{{ page.category | category_url }}/feed.xml">
+      <i class="fa fa-rss right"></i>
+    </a>
+  </h2>
+  {{ content }}
+  {% for post in site.categories[page.category] %}
+    {% include post-summary.html %}
+  {% endfor %}
+</div>

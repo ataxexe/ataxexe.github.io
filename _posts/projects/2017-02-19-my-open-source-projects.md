@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  My Open Source projects
-category: Projects
+category: projects
 tags:
   - projects
   - programming

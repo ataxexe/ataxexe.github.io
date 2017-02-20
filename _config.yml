@@ -3,9 +3,8 @@ description: "Error ocurred successfully!"
 
 encoding: utf-8
 
-highlighter: pygments
+highlighter: rouge
 
-permalink: /posts/:title
 paginate: 15
 paginate_path: :num
 
@@ -14,6 +13,10 @@ exclude:
   - .sass-cache
 
 minify: true
+
+post_categories:
+  projects:
+    name: My Projects
 
 url: http://www.unbelievableexception.com
 github: https://github.com/ataxexe/ataxexe.github.io

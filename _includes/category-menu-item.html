@@ -1,0 +1,6 @@
+<li>
+  <a href="/{{ category | category_url }}">
+    {{ category }} <span class="badge">{{ category | post_count }}</span>
+  </a>
+</li>
+{% assign category = nil %}
