@@ -1,4 +1,7 @@
 $code-font-size:        1em;
+$code-background-color: $base3;
+$code-color:            $base01;
+$code-border-color:     $base2;
 
 code, pre {
   font-size: $code-font-size;
@@ -23,7 +26,11 @@ p code {
   background-color: $code-background-color;
   color: $code-color;
 
-  .kw, .dt { color: $code-keyword-color; } /* Keyword.Declaration */
+  /* Keyword.Declaration */
+  .kw, .dt {
+    color: $code-keyword-color;
+    font-weight: bold;
+  }
   .co { color: $code-comment-color; font-style: italic } /* Comment.Multiline */
   .dv { color: $code-number-color } /* Literal.Number */
   .fu { color: $code-function-color } /* Name.Function */
