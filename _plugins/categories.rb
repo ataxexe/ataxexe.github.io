@@ -31,12 +31,6 @@ module Jekyll
 
   module CategoryFilter
 
-    def category_slogan(category)
-      site = @context.registers[:site]
-      entry = site.config['post_categories'][category.downcase]
-      entry['slogan'] or site.config['description']
-    end
-
     # build the url for a given category
     def category_url(category)
       I18n.transliterate(category).gsub(/\s/, '-').downcase

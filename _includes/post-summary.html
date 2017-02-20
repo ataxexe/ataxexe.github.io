@@ -6,7 +6,7 @@
     <span class="well well-sm">
       Published on {{ post.date | date: "%d/%m/%Y" }} in category
       <a href="/{{ post.category | category_url }}">
-        {{ site.post_categories[page.category]['name'] }}
+        {{ site.post_categories[post.category]['name'] }}
       </a>
     </span>
   </p>
