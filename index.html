@@ -4,10 +4,19 @@ title: Unbelievable Exception
 ---
 
 <div class="container">
-  <h1>{{ site.description }}</h1>
-  <h2>Posts</h2>
+  <div class="row">
+    <div class="col-md-8">
+      <h1>{{ site.description }}</h1>
+      <h2>Posts</h2>
+    </div>
+    <div class="col-md-4">
+      <div id="logo" class="pull-right">
+        <!--<img src="/assets/images/logo.png" alt="logo" width="25%">-->
+      </div>
+    </div>
+  </div>
   {% for post in paginator.posts %}
-    {% include post-summary.html %}
+  {% include post-summary.html %}
   {% endfor %}
 </div>
 <div class="container">

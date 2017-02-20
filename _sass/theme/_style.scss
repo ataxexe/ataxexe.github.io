@@ -30,6 +30,11 @@ h1, h2, h3 {
   color: $brand-primary;
 }
 
+#logo {
+  width: 25%;
+  content: url("/assets/images/logo.png");
+}
+
 .site-owner {
   color: $brand-primary;
 }
@@ -108,7 +113,9 @@ article {
   .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 
     iframe, object, embed {
       position: absolute;
