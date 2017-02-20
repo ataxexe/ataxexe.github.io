@@ -3,6 +3,7 @@ require 'i18n'
 module Jekyll
 
   class CategoryPage < Page
+    safe true
 
     def initialize(site, category, name, layout)
       @site = site
