@@ -16,12 +16,6 @@
   font-weight: 400;
   src: local('Lora'), url(/assets/fonts/lora.woff) format('woff');
 }
-@font-face {
-  font-family: 'IndieFlower';
-  font-style: normal;
-  font-weight: 400;
-  src: local('IndieFlower'), url(/assets/fonts/indieflower.woff) format('woff');
-}
 
 // Typography
 // -------------------------
@@ -30,7 +24,6 @@ $font-family-sans-serif:  "Raleway", sans-serif;
 $font-family-serif:       "Lora", serif;
 $font-family-monospace:   monospace;
 $font-family-base:        $font-family-serif;
-$font-family-handwrite:   "IndieFlower", sans-serif;
 
 $font-size-base:          14px;
 $font-size-large:         ceil($font-size-base * 1.25); // ~18px

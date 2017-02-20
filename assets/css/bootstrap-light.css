@@ -5083,9 +5083,6 @@ body {
 input, button, select, textarea {
   font-family: inherit; }
 
-.handwrite {
-  font-family: "IndieFlower", sans-serif; }
-
 .navbar, .navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 1.2em; }

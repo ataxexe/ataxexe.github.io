@@ -61,7 +61,7 @@
           </a>
           <ul class="dropdown-menu">
             {% for contact in site.owner.contacts %}
-            <li class="contact-link handwrite">
+            <li class="contact-link">
               <a href="{{contact[1]}}" target="_blank">
                 <i class="fa fa-fw fa-lg fa-{{contact[0] | downcase | replace: '_', '-'}}"></i>
                 {{contact[0] | replace: '_', ' '}}
