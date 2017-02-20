@@ -36,4 +36,4 @@ This is a simple plugin for sending push notifications regarding build status. I
 
 ---- 
 
-Feel free to check out my babies and to contribute as well. And tell me in the comments if any of them helped you to solve a problem.
+Feel free to check out my babies and to contribute as well.
