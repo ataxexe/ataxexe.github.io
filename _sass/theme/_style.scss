@@ -30,9 +30,8 @@ h1, h2, h3 {
   color: $brand-primary;
 }
 
-#logo {
-  width: 25%;
-  content: url("/assets/images/logo.png");
+.logo {
+  content: url("/assets/images/logo-small.png");
 }
 
 .site-owner {
