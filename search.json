@@ -4,7 +4,7 @@
   "{{post.url}}": {
     "url": "{{post.url}}",
     "tags": "{{post.tags | join: ', '}}",
-    "category": "{{post.category}}",
+    "category": "{{site.post_categories[post.category]['name']}}",
     "title": "{{post.title | escape}}",
     "excerpt": "{{post.excerpt | strip_html | strip_newlines}}",
     "date": "{{post.date | date: "%d/%m/%Y"}}"

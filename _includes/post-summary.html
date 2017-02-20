@@ -4,10 +4,7 @@
   </h3>
   <p class="post-details">
     <span class="well well-sm">
-      Published on {{ post.date | date: "%d/%m/%Y" }} in category
-      <a href="/{{ post.category | category_url }}">
-        {{ site.post_categories[post.category]['name'] }}
-      </a>
+      Published on {{ post.date | date: "%d/%m/%Y" }} in category {{ site.post_categories[post.category]['name'] }}
     </span>
   </p>
   <blockquote class="post-excerpt">

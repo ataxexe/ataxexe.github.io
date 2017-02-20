@@ -18,7 +18,7 @@ search_entries = null
 load_index = function (callback) {
   if (!index_loaded) {
     input = $(this)
-    input.attr("placeholder", "Carregando...")
+    input.attr("placeholder", "Loading...")
     $("#search-input").attr("disabled", "disabled")
 
     $.getJSON("/search.json", function (data) {
@@ -28,7 +28,7 @@ load_index = function (callback) {
         tag_engine.add(this)
       })
       index_loaded = true
-      input.attr("placeholder", "Pesquisar")
+      input.attr("placeholder", "Search...")
       $("#btn-search, #search-input").removeAttr("disabled")
       if (callback) {
         callback()
@@ -51,11 +51,12 @@ full_search = function (term, callback) {
 tag_search = function (tag, callback) {
   search(tag, tag_engine, callback)
 }
+
 finish = function (result, callback) {
   $("#search-result").empty()
   if (result.length == 0) {
     $("<div class='alert alert-danger'>" +
-        "<strong>Não foi encontrada nenhuma postagem com esse termo!</strong>" +
+        "<strong>No post was found!</strong>" +
         "</div>").appendTo("#search-result")
   }
   $.each(result, function () {

@@ -3,18 +3,13 @@ layout: default
 ---
 <article id="post">
   <h1>{{ page.title }}</h1>
-  <a href="/{{ page.category | category_url }}">
-    <button class="category btn btn-default">{{ site.post_categories[page.category]['name'] }}</button>
-  </a>
+  <span class="category label label-primary">{{ site.post_categories[page.category]['name'] }}</span>
   <p class="meta text-primary">Posted by {{ site.owner.nickname }} on {{ page.date | date: "%d/%m/%Y" }}</p>
   <div class="post-content">
     {% include tags.html %}
     {% for alert in page.alerts %}
       {% include alerts/{{ alert }}.html %}
     {% endfor %}
-    {% if page.root_required %}
-      {% include root-advise.html %}
-    {% endif %}
     {{ content }}
     {% include tags.html %}
   </div>
