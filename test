@@ -1,1 +1,4 @@
-jekyll serve --future --watch --drafts --config _config.yml,_config_test.yml --trace
+if [[ -d "_site" ]]; then
+  rm -rf _site
+fi
+jekyll serve --future --watch --drafts --config _config.yml --trace
