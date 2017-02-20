@@ -1,37 +1,20 @@
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), url(/assets/fonts/raleway.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(/assets/fonts/raleway-bold.woff) format('woff');
-}
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lora'), url(/assets/fonts/lora.woff) format('woff');
-}
-
+//
 // Typography
 // -------------------------
 
-$font-family-sans-serif:  "Raleway", sans-serif;
-$font-family-serif:       "Lora", serif;
-$font-family-monospace:   monospace;
-$font-family-base:        $font-family-serif;
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-family-serif: "Roboto Slab", serif;
+$font-family-monospace: 'Source Code Pro', monospace;
+$font-family-handwritten: cursive;
+$font-family-base: $font-family-serif;
 
-$font-size-base:          14px;
-$font-size-large:         ceil($font-size-base * 1.25); // ~18px
-$font-size-small:         ceil($font-size-base * 0.85); // ~12px
+$font-size-base: 12px;
+$font-size-large: ceil($font-size-base * 1.25); // ~18px
+$font-size-small: ceil($font-size-base * 0.85); // ~12px
 
-$line-height-base:        1.428571429; // 20/14
-$line-height-computed:    floor($font-size-base * $line-height-base); // ~20px
+$line-height-base: 1.428571429; // 20/14
+$line-height-computed: floor($font-size-base * $line-height-base); // ~20px
 
-$headings-font-family:    $font-family-sans-serif;
-$headings-font-weight:    500;
-$headings-line-height:    1.1;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 500;
+$headings-line-height: 1.1;
