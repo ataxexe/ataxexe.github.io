@@ -1,0 +1,17 @@
+<p class="post-preview">
+  <h3>
+    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+  </h3>
+  <p class="post-details">
+    <span class="well well-sm">
+      Published on {{ post.date | date: "%d/%m/%Y" }} in category
+      <a href="/{{ post.category | category_url }}">
+        {{post.category}}
+      </a>
+    </span>
+  </p>
+  <blockquote class="post-excerpt">
+    {{ post.excerpt }}
+  </blockquote>
+  <hr>
+</p>

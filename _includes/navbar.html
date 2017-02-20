@@ -1,0 +1,84 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" id="site-name" href="/">{{ site.name }}</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="{{site.github}}" target="_blank">
+            <span class="visible-xs visible-md visible-lg">GitHub</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-github"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="/feed.xml">
+            <span class="visible-xs visible-md visible-lg">RSS</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-rss"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="/about">
+            <span class="visible-xs visible-md visible-lg">About</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-question"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="visible-xs visible-md visible-lg">
+              Theme<b class="caret"></b>
+            </span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-dashboard"></i><b class="caret"></b>
+            </span>
+          </a>
+          <ul class="dropdown-menu">
+            <li id="theme-dark">
+              <a href="#" class="theme-change" id="to-dark-theme">
+                Dark
+              </a>
+            </li>
+            <li id="theme-light">
+              <a href="#" class="theme-change" id="to-light-theme">
+                Light
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="visible-xs visible-md visible-lg">
+              Contacts<b class="caret"></b>
+            </span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-user"></i><b class="caret"></b>
+            </span>
+          </a>
+          <ul class="dropdown-menu">
+            {% for contact in site.owner.contacts %}
+            <li class="contact-link handwrite">
+              <a href="{{contact[1]}}" target="_blank">
+                <i class="fa fa-fw fa-lg fa-{{contact[0] | downcase | replace: '_', '-'}}"></i>
+                {{contact[0] | replace: '_', ' '}}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

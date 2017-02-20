@@ -1,0 +1,29 @@
+name: Unbelievable Exception
+description: "Error ocurred successfully!"
+
+encoding: utf-8
+
+highlighter: pygments
+
+permalink: /posts/:title
+paginate: 15
+paginate_path: :num
+
+exclude:
+  - test
+  - .sass-cache
+
+minify: true
+
+url: http://www.unbelievableexception.com
+github: https://github.com/ataxexe/ataxexe.github.io
+
+owner:
+  name: Marcelo Guimarães
+  nickname: Ataxexe
+  email: ataxexe@gmail.com
+  contacts:
+    GitHub: http://github.com/ataxexe
+    YouTube: http://youtube.com/ataxexe
+    LinkedIn: http://linkedin.com/in/ataxexe
+    Twitter: http://twitter.com/ataxexe

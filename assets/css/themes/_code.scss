@@ -1,0 +1,32 @@
+$code-font-size:        1em;
+
+code, pre {
+  font-size: $code-font-size;
+  color: $code-color;
+  overflow: auto;
+  background-color: $code-background-color;
+  border-radius: 3px 3px 3px 3px;
+}
+
+p code {
+  font-size: $code-font-size;
+  border: 1px solid $code-border-color;
+  margin: 0px 2px;
+  padding: 0px 5px;
+  background-color: $code-background-color;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.sourceCode {
+  font-size: $code-font-size;
+  border-radius: 3px 3px 3px 3px;
+  background-color: $code-background-color;
+  color: $code-color;
+
+  .kw, .dt { color: $code-keyword-color; } /* Keyword.Declaration */
+  .co { color: $code-comment-color; font-style: italic } /* Comment.Multiline */
+  .dv { color: $code-number-color } /* Literal.Number */
+  .fu { color: $code-function-color } /* Name.Function */
+  .ot { color: $code-attribute-color } /* Attribute.Name */
+  .st { color: $code-string-color } /* Literal.String */
+}
