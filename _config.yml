@@ -12,12 +12,6 @@ exclude:
   - test
   - .sass-cache
 
-post_categories:
-  projects:
-    name: Projects
-  devoops:
-    name: DevOops
-
 url: http://www.unbelievableexception.com
 github: https://github.com/ataxexe/ataxexe.github.io
 

@@ -3,7 +3,9 @@ layout: default
 ---
 <article id="post">
   <h1 class="text-left post-title">{{ page.title }}</h1>
+  {% assign post = page %}
   {% include post-info.html %}
+  {% include post-tags.html %}
   <div class="post-content">
     {{ content }}
   </div>

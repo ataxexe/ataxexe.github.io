@@ -17,7 +17,7 @@
             Posts&nbsp;<span class="badge">{{ site.posts.size }}</span><b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            {% for info in site.post_categories %}
+            {% for info in site.data.categories %}
               {% assign category_id = info[0] %}
               {% assign category_description = info[1]['name'] %}
               {% include category-menu-item.html %}
