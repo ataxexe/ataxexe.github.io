@@ -62,12 +62,12 @@ finish = function (result, callback) {
   $.each(result, function () {
     index = this['ref']
     entry = search_entries[index]
-    h4 = $("<h2 class='list-group-item-heading result-title'>" +
-        entry['title'] + " <small>(" + entry["date"] + ")</small></h4>")
-    h5 = $("<h3 class='list-group-item-heading result-category'>" + entry['category'] + "</h5>")
+    title = $("<h3 class='list-group-item-heading result-title'>" + entry['title'] + "</h3>")
+    info = $("<ul class='post-info'><li><span><i class='fa fa-calendar'></i> " + entry['date'] + " </span></li>" +
+      "<li><span><i class='fa fa-caret-right'></i> " + entry['category'] + "</span></li></ul>")
     p = $("<p class='list-group-item-text result-excerpt'>" + entry['excerpt'] + "</p>")
     $("<a href='" + entry['url'] + "' class='list-group-item'>")
-        .append(h4, h5, p)
+        .append(title, info, p)
         .appendTo("#search-result")
   })
   $("#search-result").show("slow")
