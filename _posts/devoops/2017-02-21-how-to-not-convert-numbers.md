@@ -59,7 +59,7 @@ didn't get a nausea, stop reading this stupid blog and start to read some algori
 
 Those lines of pure mental diarrhea could be easily rewritten using only the Java API:
 
-- `NumberFormat`: responsible for converting a `String` to a `Number`, which can be easily conveted to a `double`
+- `NumberFormat`: responsible for converting a `String` to a `Number`, which can be easily converted to a `double`
 - `Locale`: responsible for representing how numbers are formatted based on a specific region
 
 But before we begin to rewrite that monster, let's pay attention to the following tragic points:
