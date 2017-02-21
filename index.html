@@ -4,15 +4,7 @@ title: Unbelievable Exception
 ---
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <h1>{{ site.description }}</h1>
-      <h2>Posts</h2>
-    </div>
-    <div class="col-md-4">
-      {% include logo.html %}
-    </div>
-  </div>
+  <h1>Posts</h1>
   {% for post in paginator.posts %}
   {% include post-summary.html %}
   {% endfor %}

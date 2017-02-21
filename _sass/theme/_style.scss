@@ -16,7 +16,7 @@ input, button, select, textarea, label {
   font-family: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: $font-family-sans-serif;
   font-weight: 300;
 }
@@ -83,6 +83,8 @@ h1, h2, h3 {
 article {
 
   font-size: 1.3em;
+  width: 90%;
+  padding-left: 10%;
 
   blockquote p {
     font-size: 1em;
