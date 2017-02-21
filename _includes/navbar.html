@@ -52,7 +52,7 @@
             </span>
           </a>
           <ul class="dropdown-menu">
-            {% for contact in site.owner.contacts %}
+            {% for contact in site.data.owner.contacts %}
             <li class="contact-link">
               <a href="{{contact[1]}}" target="_blank">
                 <i class="fa fa-fw fa-lg fa-{{contact[0] | downcase | replace: '_', '-'}}"></i>

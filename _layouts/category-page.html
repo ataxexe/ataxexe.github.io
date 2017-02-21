@@ -2,7 +2,7 @@
 layout: default
 title: Posts by category
 ---
-
+<h1>Posts In Category "{{ site.data.categories[page.category].name }}"</h1>
 <div class="container">
   {% for post in site.categories[page.category] %}
   {% include post-summary.html %}
