@@ -17,18 +17,11 @@
             Posts&nbsp;<span class="badge">{{ site.posts.size }}</span><b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li>
-              <a href="/projects">
-                {{ site.post_categories['projects']['name'] }}&nbsp;
-                <span class="badge">{{ site.categories.projects.size }}</span>
-              </a>
-            </li>
-            <li>
-              <a href="/devoops">
-                {{ site.post_categories['devoops']['name'] }}&nbsp;
-                <span class="badge">{{ site.categories.devoops.size }}</span>
-              </a>
-            </li>
+            {% for info in site.post_categories %}
+              {% assign category_id = info[0] %}
+              {% assign category_description = info[1]['name'] %}
+              {% include category-menu-item.html %}
+            {% endfor %}
           </ul>
         </li>
         <li>
