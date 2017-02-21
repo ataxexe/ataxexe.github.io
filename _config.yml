@@ -8,6 +8,11 @@ highlighter: rouge
 paginate: 15
 paginate_path: :num
 
+defaults:
+  -
+    values:
+      highlight: androidstudio
+
 exclude:
   - test
   - .sass-cache
