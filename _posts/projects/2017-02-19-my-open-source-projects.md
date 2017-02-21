@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My Open Source projects
+title:  My Open Source Projects
 category: projects
 tags:
   - projects
