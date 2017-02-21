@@ -2,17 +2,9 @@
 layout: default
 ---
 <article id="post">
-  <div class="row">
-    <h1 class="text-left">{{ page.title }}</h1>
-    <span class="category label label-primary">{{ site.post_categories[page.category]['name'] }}</span>
-  </div>
-  <p class="meta text-primary small">Posted by {{ site.owner.nickname }} on {{ page.date | date: "%d/%m/%Y" }}</p>
+  <h1 class="text-left post-title">{{ page.title }}</h1>
+  {% include post-info.html %}
   <div class="post-content">
-    {% include tags.html %}
-    {% for alert in page.alerts %}
-      {% include alerts/{{ alert }}.html %}
-    {% endfor %}
     {{ content }}
-    {% include tags.html %}
   </div>
 </article>

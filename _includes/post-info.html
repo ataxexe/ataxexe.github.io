@@ -1,0 +1,20 @@
+<div class="small">
+  <ul class="post-info">
+    <li>
+      <span><i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }}</span>
+    </li>
+    <li>
+      <span><i class="fa fa-caret-right"></i> {{ site.post_categories[page.category]['name'] }}</span>
+    </li>
+  </ul>
+</div>
+<div class="small">
+  <ul class="post-info post-tag">
+    <li><i class="fa fa-tags"></i></li>
+    {% for tag in page.tags %}
+    <li class="post-tag">
+      <a href="#">{{ tag }}</a>&nbsp;&nbsp;
+    </li>
+    {% endfor %}
+  </ul>
+</div>

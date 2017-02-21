@@ -42,6 +42,17 @@ h1, h2, h3, h4, h5 {
   font-style: italic;
 }
 
+.post-info {
+  li {
+    list-style: none;
+    display: inline;
+  }
+}
+
+.post-title {
+  color: $brand-primary;
+}
+
 .post-excerpt {
   font-size: 0.8em;
 }
@@ -68,7 +79,6 @@ h1, h2, h3, h4, h5 {
 
 .post-tag {
   font-family: $font-family-sans-serif;
-  font-size: 0.6em;
 }
 
 .category {
@@ -127,6 +137,10 @@ article {
     }
   }
 
+}
+
+#description {
+  display: none;
 }
 
 #copyright {
