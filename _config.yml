@@ -14,7 +14,9 @@ exclude:
 
 post_categories:
   projects:
-    name: My Projects
+    name: Projects
+  devoops:
+    name: DevOops
 
 url: http://www.unbelievableexception.com
 github: https://github.com/ataxexe/ataxexe.github.io

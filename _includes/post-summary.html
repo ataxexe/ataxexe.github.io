@@ -9,7 +9,7 @@
           <span><i class="fa fa-calendar"></i> {{ post.date | date: "%d/%m/%Y" }}</span>
         </li>
         <li>
-          <span><i class="fa fa-caret-right"></i> {{ site.post_categories[post.category]['name'] }}</span>
+          <span><i class="fa fa-caret-right"></i> <a href="/{{post.category}}">{{ site.post_categories[post.category]['name'] }}</a></span>
         </li>
       </ul>
     </div>

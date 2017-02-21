@@ -12,21 +12,51 @@
     </div>
     <div class="navbar-collapse collapse navbar-responsive-collapse" id="navbar-main">
       <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Articles&nbsp;<span class="badge">{{ site.posts.size }}</span><b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/projects">
+                {{ site.post_categories['projects']['name'] }}&nbsp;
+                <span class="badge">{{ site.categories.projects.size }}</span>
+              </a>
+            </li>
+            <li>
+              <a href="/devoops">
+                {{ site.post_categories['devoops']['name'] }}&nbsp;
+                <span class="badge">{{ site.categories.devoops.size }}</span>
+              </a>
+            </li>
+          </ul>
+        </li>
         <li>
           <a href="{{site.github}}" target="_blank">
-            <i class="fa fa-github"></i>
+            <span class="visible-xs visible-md visible-lg">GitHub</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-github"></i>
+            </span>
           </a>
         </li>
         <li>
           <a href="/feed.xml">
-            <i class="fa fa-rss"></i>
+            <span class="visible-xs visible-md visible-lg">RSS</span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-rss"></i>
+            </span>
           </a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <i class="fa fa-user"></i><b class="caret"></b>
+            <span class="visible-xs visible-md visible-lg">
+              Contacts<b class="caret"></b>
+            </span>
+            <span class="hidden-xs hidden-md hidden-lg">
+              <i class="fa fa-user"></i><b class="caret"></b>
+            </span>
           </a>
           <ul class="dropdown-menu">
             {% for contact in site.owner.contacts %}
