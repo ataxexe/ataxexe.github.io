@@ -6,7 +6,9 @@ layout: default
   {% assign post = page %}
   {% include post-info.html %}
   {% include post-tags.html %}
+  {% include share.html %}
   <div class="post-content">
     {{ content }}
   </div>
+  {% include share.html %}
 </article>
