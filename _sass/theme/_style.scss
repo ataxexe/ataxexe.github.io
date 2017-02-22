@@ -44,6 +44,17 @@ h1, h2, h3, h4, h5 {
   color: $brand-primary;
 }
 
+.share {
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+      display: inline;
+      padding-left: 10px;
+    }
+  }
+}
+
 .post-details {
   font-style: italic;
 }
@@ -53,11 +64,17 @@ h1, h2, h3, h4, h5 {
   li {
     list-style: none;
     display: inline;
+    padding-left: 10px;
+
+    i {
+      padding-right: 10px;
+    }
   }
 }
 
 .post-title {
   color: $brand-primary;
+  font-size: 2em;
 }
 
 .post-excerpt {
@@ -74,14 +91,6 @@ h1, h2, h3, h4, h5 {
 
 #btn-clear-search {
   display: none;
-}
-
-.share {
-  text-align: right;
-  .shareit {
-    position: relative;
-    top: -0.9em;
-  }
 }
 
 .post-tag {

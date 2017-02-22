@@ -1,15 +1,13 @@
 <div class="small">
   <ul class="post-info">
     <li>
-      <span><i class="fa fa-calendar"></i> {{ post.date | date: "%d/%m/%Y" }}</span>
+      <i class="fa fa-calendar"></i>{{ post.date | date: "%d/%m/%Y" }}
     </li>
     <li>
-      <span>
-        <i class="fa fa-caret-right"></i>&nbsp;
-        <a href="/{{post.category}}">
-          {{ site.data.categories[post.category]['name'] }}
-        </a>
-      </span>
+      <i class="fa fa-caret-right"></i>
+      <a href="/{{post.category}}">
+        {{ site.data.categories[post.category]['name'] }}
+      </a>
     </li>
   </ul>
 </div>

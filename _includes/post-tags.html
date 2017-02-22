@@ -1,9 +1,11 @@
 <div class="small">
   <ul class="post-info post-tag">
-    <li><i class="fa fa-tags"></i></li>
+    <li>
+      <i class="fa fa-tags"></i>
+    </li>
     {% for tag in page.tags %}
     <li class="post-tag">
-      <a href="#">{{ tag }}</a>&nbsp;&nbsp;
+      <a href="#">{{ tag }}</a>
     </li>
     {% endfor %}
   </ul>
