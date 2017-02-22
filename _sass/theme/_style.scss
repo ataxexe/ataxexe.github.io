@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5 {
 
 .post-title {
   color: $brand-primary;
-  font-size: 2em;
 }
 
 .post-excerpt {
@@ -120,6 +119,10 @@ article {
     padding-top: 6px;
     font-style: italic;
     text-align: right;
+  }
+
+  .post-title {
+    font-size: 2em;
   }
 
   img {
