@@ -7,6 +7,8 @@ layout: default
   {% include post-summary.html %}
   {% endfor %}
 </div>
+{% if site.posts.size > site.paginate %}
 <div class="container">
   {% include pagination.html %}
 </div>
+{% endif %}
