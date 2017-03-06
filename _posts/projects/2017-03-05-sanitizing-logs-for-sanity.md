@@ -22,15 +22,21 @@ Since I'm constantly working with middleware products that uses JBoss EAP as the
 
 Now I'm able to do something like this:
 
-`sherlog server.log --level ERROR --exception java.net.SocketException --print `
+~~~
+sherlog server.log --level ERROR --exception java.net.SocketException --print
+~~~
 
 This will filter just log entries of the `ERROR` level containing a `java.net.SocketException` and print them in the output, then I can reduce the log by using the `>` redirection operator:
 
-`sherlog server.log --level ERROR --exception java.net.SocketException --print > sanitized.log`
+~~~
+sherlog server.log --level ERROR --exception java.net.SocketException --print > sanitized.log
+~~~
 
 I can also remove those `System.out` entries from log files:
 
-`sherlog server.log --not --category stdout --print > sanitized.log`
+~~~
+sherlog server.log --not --category stdout --print > sanitized.log
+~~~
 
 The `--print` option is to... print the entries. That's because I often need to tell people things like "you have 42 occurrences of NPE's so please try to fix that before saying that Java has a bug in the `for` loop" (seriously, I've been through something like this, and it was really hard to not pull off my left arm just to have something to throw at the guy). Because of that, I've introduced a `--count` option.
 
