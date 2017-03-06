@@ -34,6 +34,8 @@ I can also remove those `System.out` entries from log files:
 
 The `--print` option is to... print the entries. That's because I often need to tell people things like "you have 42 occurrences of NPE's so please try to fix that before saying that Java has a bug in the `for` loop" (seriously, I've been through something like this, and it was really hard to not pull off my left arm just to have something to throw at the guy). Because of that, I've introduced a `--count` option.
 
-The great part is I've always had huge input files for testing. I'm using `sherlog-holmes` in the field for some time and it's always proving me that sanity logs are not that common. In case you want to use the tool, go check its [git repository](https://github.com/devnull-tools/sherlog-holmes) for more detailed instructions. 
+The great part is I've always had huge input files for testing. I'm using `sherlog-holmes` in the field for some time and it's always proving me that sanity logs are not that common. In case you want to use the tool, go check its [git repository](https://github.com/devnull-tools/sherlog-holmes) for more detailed instructions.
 
-Of course I included the `--no-stacktrace` option to suppress stacktraces and make JP happy.
+---
+
+Of course I included the `--no-stacktrace` option to suppress stacktraces and make JP happy!
