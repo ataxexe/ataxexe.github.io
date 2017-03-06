@@ -22,19 +22,19 @@ Since I'm constantly working with middleware products that uses JBoss EAP as the
 
 Now I'm able to do something like this:
 
-~~~
+~~~bash
 sherlog server.log --level ERROR --exception java.net.SocketException --print
 ~~~
 
 This will filter just log entries of the `ERROR` level containing a `java.net.SocketException` and print them in the output, then I can reduce the log by using the `>` redirection operator:
 
-~~~
+~~~bash
 sherlog server.log --level ERROR --exception java.net.SocketException --print > sanitized.log
 ~~~
 
 I can also remove those `System.out` entries from log files:
 
-~~~
+~~~bash
 sherlog server.log --not --category stdout --print > sanitized.log
 ~~~
 
