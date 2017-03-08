@@ -8,7 +8,7 @@ tags:
   - devnull-tools
 ---
 
-I'm not in favor of reinventing the wheel, but sometimes the wheel needs to be polished or rethinked. Bellow is a couple of projects I coded to solve my problems, maybe they can solve yours too.
+I'm not in favor of reinventing the wheel, but sometimes the wheel needs to be polished or rethought. Bellow is a couple of projects I coded to solve my problems, maybe they can solve yours too.
 
 ## [Trugger](https://github.com/devnull-tools/trugger)
 
