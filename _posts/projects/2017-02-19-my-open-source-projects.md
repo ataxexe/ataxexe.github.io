@@ -32,7 +32,7 @@ This is a bot platform that allows you to code a message processor without being
 
 ## [Jenkins Notifier](https://github.com/devnull-tools/jenkins-notifier)
 
-This is a simple plugin for sending push notifications regarding build status. It can even send notifications to boteco so users can subscribe to notifications using boteco's platform (the same way as the support case notifications).
+This is a simple plugin for sending push notifications regarding build status. It can even send notifications to boteco so users can subscribe to notifications using boteco's platform.
 
 ---- 
 
