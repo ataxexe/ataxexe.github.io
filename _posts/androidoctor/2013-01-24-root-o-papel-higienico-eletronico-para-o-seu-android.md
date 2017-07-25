@@ -82,17 +82,17 @@ que, pra você discar um número com os atalhos super maneiros da Samsung, preci
 
 
 1. segurar o botão da caneta
-1. desenhar uma reta pra cima
-1. esperar abrir o painel de comandos
-1. escrever "#" seguido do nome do contato a discar
-1. torcer para que o celular reconheça sua caligrafia egípcia
+2. desenhar uma reta pra cima
+3. esperar abrir o painel de comandos
+4. escrever "#" seguido do nome do contato a discar
+5. torcer para que o celular reconheça sua caligrafia egípcia
 
 Não tem como criar um gesto simples pra discar para um contato que você sempre liga. Com o celular
 rooteado, você pode limpar essa caquinha e colocar o excelente GMD SPen Control. Com ele, basta
 apenas você:
 
 1. segurar o botão da caneta
-1. desenhar o gesto que mapeou para o contato
+2. desenhar o gesto que mapeou para o contato
 
 Simples assim.
 
