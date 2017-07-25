@@ -8,6 +8,10 @@ layout: default
   {% include post-tags.html %}
   {% include share.html %}
   <div class="post-content">
+    {% for alert in page.alerts %}
+      {% include alerts/{{ page.language | append: '/' | append: alert }}.html %}
+    {% endfor %}
+
     {{ content }}
   </div>
   {% include share.html %}

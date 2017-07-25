@@ -14,6 +14,7 @@ defaults:
   -
     values:
       highlight: androidstudio
+      language: en_US
 
 exclude:
   - test
@@ -21,3 +22,9 @@ exclude:
 
 url: http://www.unbelievableexception.com
 github: https://github.com/ataxexe/ataxexe.github.io
+
+plugins:
+  - jekyll-paginate
+  - i18n
+  - closure-compiler
+  - sass

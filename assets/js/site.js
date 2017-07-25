@@ -5,7 +5,8 @@ phrases = [
     "An error occurred while displaying the previous error",
     "No error occurred",
     "Keyboard error, press F1 to continue",
-    "Catastrophic failure"
+    "Catastrophic failure",
+    "Failure while failing"
 ]
 
 $(document).ready(function () {

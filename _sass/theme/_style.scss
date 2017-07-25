@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5 {
     i {
       padding-right: 10px;
     }
+
+    img {
+      width: 15px;
+    }
   }
 }
 
@@ -159,6 +163,17 @@ article {
   pre {
     code {
       font-size: 1.2em;
+    }
+  }
+
+  .post-info {
+    li {
+      img {
+        margin: auto auto auto auto;
+        display: inherit;
+        width: 25px;
+        border: none;
+      }
     }
   }
 

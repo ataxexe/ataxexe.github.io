@@ -2,3 +2,5 @@ projects:
   name: Projects
 devoops:
   name: DevOops
+androidoctor:
+  name: AndroiDoctor
