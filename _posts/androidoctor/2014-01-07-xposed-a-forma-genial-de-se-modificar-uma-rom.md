@@ -21,7 +21,7 @@ Um exemplo muitíssimo interessante é o do módulo [AppSettings][]. Ele permite
 
 Porcaria mesmo, meus dois Galaxy Note II tiveram fins trágicos de hardware logo depois da garantia terminar (e, pesquisando, minha esposa encontrou diversas outras historinhas parecidas - mas acho que isso é assunto pra outro post, ou um tribunal). O mais legal é que a "excelente" atendente da única assistência técnica de Brasília foi mais idiota do que o vendedor que me atendeu na loja da Samsung.
 
-A mudança na desidade é genial, com ela, pode-se otimizar a tela do aparelho sem causar quebras na interface geral do sistema. O Moto X, por exemplo, quebra a interface de notificações inteligentes quando a densidade geral é alterada. Usando o Xposed com o AppSettings, somente os aplicativos escolhidos usarão densidades diferentes.
+Voltando ao Xposed, mudança na desidade é genial. Com ela, pode-se otimizar a tela do aparelho sem causar quebras na interface geral do sistema. O Moto X, por exemplo, quebra a interface de notificações inteligentes quando a densidade geral é alterada. Usando o Xposed com o AppSettings, somente os aplicativos escolhidos usarão densidades diferentes.
 
 O processo de instalação do Xposed é bem simples:
 
