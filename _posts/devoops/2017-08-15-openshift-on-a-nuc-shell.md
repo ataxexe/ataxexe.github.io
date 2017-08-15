@@ -22,7 +22,7 @@ As stated, mobile connection isn't something pleasure to use for people always o
 
 After some research, I got a nice Intel Nuc Skull Canyon with 32GB RAM and 1TB SSD. How big is it?
 
-![Intel Nuc]({{ page.images }}/nuc.png)
+![Intel Nuc]({{ page.images }}/nuc.jpg)
 
 It's so small that only fits 4 hex stickers on the left side! Inside this cute little box lives an OpenShift Origin 3.6 running mainly those services:
 
