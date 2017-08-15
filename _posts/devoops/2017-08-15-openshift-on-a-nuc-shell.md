@@ -44,4 +44,4 @@ This little thing is helping me not only to work on my Open Source projects but 
 
 I love card tricks. You can engage and audience easily with a good trick and that's how I can engage people with my Nuc: they don't expect me to come with a little device and throw up an entire environment ready to rock.
 
-Think about that: you can do whatever you want to ask people to choose a card, you can do any kinds of movements to scramble the deck, but, at the end, it's all about how you reveal the chosen card. The revealing process might be unforgettable if done right, and I can use that to engage people. The Nuc shell is how I "reveal" OpenShift.
+It doesn't matter how you ask people to pick a card, or how good you are scrambling the deck. At the end, it's all about how you reveal the card. The revealing process might be unforgettable if done right, and I can use that to engage people. The Nuc shell is how I "reveal" OpenShift.
