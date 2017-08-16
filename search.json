@@ -1,12 +1,12 @@
 ---
 ---
-{ {% for post in site.posts %}
-  "{{post.url}}": {
+{ {% for post in site.posts %}{% unless post.draft %}"{{post.url}}": {
     "url": "{{post.url}}",
-    "tags": "{{post.tags | join: ', '}}",
+    "tags": "{{post.tags | join: ' '}}",
     "category": "{{site.data.categories[post.category]['name']}}",
     "title": "{{post.title | escape}}",
-    "excerpt": "{{post.excerpt | strip_html | strip_newlines}}",
-    "date": "{{post.date | date: "%d/%m/%Y"}}"
-  } {% if post.previous %},{% endif %} {% endfor %}
+    "date": "{{post.date | date: "%Y-%m-%d"}}",
+    "language": "{{post.language}}"
+  } {% if post.previous %}{% unless post.previous.draft %},{% endunless %}{% endif %}{% endunless %}
+  {% endfor %}
 }
