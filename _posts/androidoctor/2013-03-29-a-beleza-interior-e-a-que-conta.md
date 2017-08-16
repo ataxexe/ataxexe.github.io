@@ -75,7 +75,7 @@ São, sim! E valem cada centavinho do seu cartão de crédito. Um bom aplicativo
 
 ## Beleza! E se eu tiver um celular rooteado? Ele leva vantagem aqui?
 
-Excelente pergunta! Com um [celular rooteado][post-rooot], você pode trocar a ROM para alguma que suporte temas. Atualmente eu utilizo a [Slim Bean][]. Além de suportar temas, ela tem o *"The Real Dark Slim"*, que descolora a interface gráfica do Android para um tom buraco-negro-extremo digno de reverências.
+Excelente pergunta! Com um [celular rooteado][post-root], você pode trocar a ROM para alguma que suporte temas. Atualmente eu utilizo a [Slim Bean][]. Além de suportar temas, ela tem o *"The Real Dark Slim"*, que descolora a interface gráfica do Android para um tom buraco-negro-extremo digno de reverências.
 
 ![Show de bola, né?]({{ page.images }}/slim-dark.png)
 
