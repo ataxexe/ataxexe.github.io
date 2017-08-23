@@ -1,0 +1,6 @@
+trugger:
+  name: Trugger
+  uri: /projects/trugger
+  scm: github
+  url: https://github.com/devnull-tools/trugger
+  download: https://github.com/devnull-tools/trugger/releases/latest
