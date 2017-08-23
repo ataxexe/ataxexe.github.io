@@ -1,6 +1,9 @@
 projects:
   name: Projects
+  uri: /posts/projects
 devoops:
   name: DevOops
+  uri: /posts/devoops
 androidoctor:
   name: AndroiDoctor
+  uri: /posts/androidoctor

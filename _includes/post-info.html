@@ -5,7 +5,7 @@
     </li>
     <li>
       <i class="fa fa-caret-right"></i>
-      <a href="/{{post.category}}">
+      <a href="{{ site.data.categories[post.category]['uri'] }}">
         {{ site.data.categories[post.category]['name'] }}
       </a>
     </li>

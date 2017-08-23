@@ -8,7 +8,7 @@ highlighter: rouge
 paginate: 15
 paginate_path: :num
 
-permalink: pretty
+permalink: /posts/:categories/:year/:month/:day/:title.html
 
 defaults:
   -

@@ -1,5 +1,5 @@
 <li>
-  <a href="/{{ category_id }}">
+  <a href="{{ site.data.categories[category_id]['uri'] }}">
     {{ category_description }}&nbsp;
     <span class="badge">{{ site.categories[category_id].size }}</span>
   </a>
