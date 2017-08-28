@@ -4,3 +4,9 @@ trugger:
   scm: github
   url: https://github.com/devnull-tools/trugger
   download: https://github.com/devnull-tools/trugger/releases/latest
+boteco:
+  name: Boteco
+  uri: /projects/boteco
+  scm: github
+  url: https://github.com/devnull-tools/boteco
+  download: https://github.com/devnull-tools/boteco/releases/latest
