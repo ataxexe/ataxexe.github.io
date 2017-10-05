@@ -204,4 +204,4 @@ Ter tido contato com o Robocode foi excelente para o meu aprendizado. Eu me lemb
 [github]: <https://github.com/devnull-tools/robobundle>
 [exemplos]: <https://github.com/devnull-tools/robobundle/tree/master/src/atatec/robocode/robots>
 [robo]: <https://github.com/devnull-tools/robobundle/blob/master/src/atatec/robocode/robots/Chronos.java>
-[post-heranca]: <{% post_url /devoops/2013-08-29-cuidado-com-a-heranca.markdown %}>
+[post-heranca]: <{% post_url /devoops/2013-08-29-cuidado-com-a-heranca %}>
