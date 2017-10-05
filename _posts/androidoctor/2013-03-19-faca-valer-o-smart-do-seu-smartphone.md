@@ -112,4 +112,4 @@ os passos:
 
 [tasker]: <https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm>
 [secure_settings]: <https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin>
-[post-root]: </androidoctor/2013/01/24/root-o-papel-higienico-eletronico-para-o-seu-android/>
+[post-root]: <{% post_url /androidoctor/2013-01-24-root-o-papel-higienico-eletronico-para-o-seu-android %}>

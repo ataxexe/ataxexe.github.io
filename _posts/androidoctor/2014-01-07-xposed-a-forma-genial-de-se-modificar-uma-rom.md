@@ -41,5 +41,5 @@ O Moto X tem uma peculiaridade: mesmo rooteado ele não permite modificar arquiv
 [GravityBox]: <http://repo.xposed.info/module/com.ceco.gm2.gravitybox>
 [Xposed]: <http://forum.xda-developers.com/showthread.php?t=1574401>
 [xposed-download]: <http://repo.xposed.info/module/de.robv.android.xposed.installer>
-[post-root]: </androidoctor/2013/01/24/root-o-papel-higienico-eletronico-para-o-seu-android/>
+[post-root]: <{% post_url /androidoctor/2013-01-24-root-o-papel-higienico-eletronico-para-o-seu-android %}>
 

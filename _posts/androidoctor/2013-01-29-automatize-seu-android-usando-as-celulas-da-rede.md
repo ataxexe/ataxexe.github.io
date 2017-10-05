@@ -116,4 +116,4 @@ pra isso, mas envolve [rootear seu celular][post-root] e usar outra solução de
 sobre ela em posts futuros). Por ora, deixe o GPS ligado.
 
 [llama]: <https://play.google.com/store/apps/details?id=com.kebab.Llama>
-[post-root]: </androidoctor/2013/01/24/root-o-papel-higienico-eletronico-para-o-seu-android/>
+[post-root]: <{% post_url /androidoctor/2013-01-24-root-o-papel-higienico-eletronico-para-o-seu-android %}>

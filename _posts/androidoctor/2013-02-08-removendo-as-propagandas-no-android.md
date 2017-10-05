@@ -60,6 +60,6 @@ sinal) o papel de bloquear as propagandas. Ele utiliza outra forma pra isso (e s
 Xposed) e consegue até remover os espaços destinados a propagandas nos aplicativos.
 
 [MinMinGuard]: <http://repo.xposed.info/module/tw.fatminmin.xposed.minminguard>
-[post-xposed]: </androidoctor/2014/01/07/xposed-a-forma-genial-de-se-modificar-uma-rom>
-[post-root]: </androidoctor/2013/01/24/root-o-papel-higienico-eletronico-para-o-seu-android/>
+[post-xposed]: <{% post_url /androidoctor/2014-01-07-xposed-a-forma-genial-de-se-modificar-uma-rom %}>
+[post-root]: <{% post_url /androidoctor/2013-01-24-root-o-papel-higienico-eletronico-para-o-seu-android %}>
 [adaway]: <https://f-droid.org/repository/browse/?fdid=org.adaway>

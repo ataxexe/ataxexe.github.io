@@ -117,5 +117,5 @@ contra as gambiarras usadas pra mascarar o preço do jogo.
 
 Hoje os beneficiados não são os melhores jogadores, são os que tem mais grana pra torrar nos jogos.
 
-[post-root]: </androidoctor/2013/01/24/root-o-papel-higienico-eletronico-para-o-seu-android/>
+[post-root]: <{% post_url /androidoctor/2013-01-24-root-o-papel-higienico-eletronico-para-o-seu-android %}>
 [gamecih]: <http://www.cih.com.tw/gamecih.html>

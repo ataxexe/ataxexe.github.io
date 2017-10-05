@@ -124,8 +124,8 @@ Aquilo é ridículo! Nem o criador da ROM mais utilizada no mundo Android, o Ste
 
 [steve]: <https://plus.google.com/100275307499530023476/posts/U9KhibuYFcj>
 
-[post-root]: </androidoctor/2013/01/24/root-o-papel-higienico-eletronico-para-o-seu-android/>
-[post-launchers]: </androidoctor/2013/02/04/launchers-personalizando-a-sua-tela-inicial/>
+[post-root]: <{% post_url /androidoctor/2013-01-24-root-o-papel-higienico-eletronico-para-o-seu-android %}>
+[post-launchers]: <{% post_url /androidoctor/2013-02-04-launchers-personalizando-a-sua-tela-inicial %}>
 
 [WidgetLocker]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.widgetlocker>
 [Missed It!]: <https://play.google.com/store/apps/details?id=net.igecelabs.android.MissedIt>

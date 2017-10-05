@@ -72,7 +72,7 @@ marcar o seu launcher novo como o padrão e, assim, o outro launcher não será 
 Também existem alguns aplicativos que podem te ajudar a montar uma bela interface no seu launcher
 (mesmo o trambolho padrão do fabricante), por isso, fique ligado nos próximos posts!
 
-[post-root]: </androidoctor/2013/01/24/root-o-papel-higienico-eletronico-para-o-seu-android/>
+[post-root]: <{% post_url /androidoctor/2013-01-24-root-o-papel-higienico-eletronico-para-o-seu-android %}>
 [nova_launcher]: <https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher>
 [apex_launcher]: <https://play.google.com/store/apps/details?id=com.anddoes.launcher>
 [launcherpro]: <https://play.google.com/store/apps/details?id=com.fede.launcher>
