@@ -12,7 +12,7 @@ tags:
 images: /assets/images/androidoctor/waze
 alerts:
   - danger
-  - root_required
+  - root-required
 ---
 
 Uma vez um colega de trabalho estava se gabando de ser "espadinha" no Waze (na vida real eu nāo faço ideia). Eu acabei baixando o Waze pra dar uma olhada em como funcionava e tudo o mais. Em menos de uma semana eu passei ele na pontuação e, de quebra, fiquei em quinto lugar no ranking semanal do Brasil! E o melhor de tudo: eu nem sequer usei o Waze em trânsito!
