@@ -27,11 +27,7 @@ COPY _config.yml Gemfile feed.xml index.html search.json ${SOURCE_LOCATION}/
 COPY .docker/nginx.conf /etc/nginx/nginx.conf
 
 RUN cd ${SOURCE_LOCATION} && bundler install && \
-    jekyll build --source ${SOURCE_LOCATION} --destination ${SITE_LOCATION} && \
-    touch /run/nginx.pid && chown -R nginx:nginx /run/nginx.pid $SITE_LOCATION && \
-    touch /var/log/nginx/error.log && chown nginx:nginx /var/log/nginx/error.log
-
-USER nginx
+    jekyll build --source ${SOURCE_LOCATION} --destination ${SITE_LOCATION}
 
 WORKDIR /etc/nginx
 
