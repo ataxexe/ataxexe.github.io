@@ -24,12 +24,16 @@ COPY posts ${SOURCE_LOCATION}/posts/
 COPY projects ${SOURCE_LOCATION}/projects/
 COPY _config.yml Gemfile feed.xml index.html search.json ${SOURCE_LOCATION}/
 
-RUN cd ${SOURCE_LOCATION} && bundler install
+COPY .docker/nginx.conf /etc/nginx/nginx.conf
 
-RUN jekyll build --source ${SOURCE_LOCATION} --destination ${SITE_LOCATION}
+RUN cd ${SOURCE_LOCATION} && bundler install && \
+    jekyll build --source ${SOURCE_LOCATION} --destination ${SITE_LOCATION} && \
+    touch /run/nginx.pid && chown -R nginx:nginx /run/nginx.pid $SITE_LOCATION
+
+USER nginx
 
 WORKDIR /etc/nginx
 
-EXPOSE 80
+EXPOSE 8000
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
