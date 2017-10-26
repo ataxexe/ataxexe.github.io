@@ -24,8 +24,6 @@ COPY posts ${SOURCE_LOCATION}/posts/
 COPY projects ${SOURCE_LOCATION}/projects/
 COPY _config.yml Gemfile feed.xml index.html search.json ${SOURCE_LOCATION}/
 
-COPY .docker/nginx.conf /etc/nginx/nginx.conf
-
 RUN cd ${SOURCE_LOCATION} && bundler install && \
     jekyll build --source ${SOURCE_LOCATION} --destination ${SITE_LOCATION}
 
