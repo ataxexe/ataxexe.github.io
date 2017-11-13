@@ -6,7 +6,8 @@ COPY _site /var/www/
 
 RUN touch /var/run/nginx.pid && \
   chown -R www-data:www-data /var/run/nginx.pid && \
-  chown -R www-data:www-data /var/cache/nginx
+  chown -R www-data:www-data /var/cache/nginx && \
+  chmod 777 /var/cache/nginx
 
 USER www-data
 
