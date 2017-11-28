@@ -2,7 +2,6 @@ phrases = [
     "Error occurred successfully",
     "Null is null or is not an object",
     "An internal error occurred while showing an internal error",
-    "An error occurred while displaying the previous error",
     "No error occurred",
     "Keyboard error, press F1 to continue",
     "Catastrophic failure",
