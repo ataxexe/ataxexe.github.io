@@ -56,7 +56,7 @@ finish = function (result, callback) {
     title = $("<h3 class='list-group-item-heading result-title'>" + entry['title'] + "</h3>")
     info = $("<ul class='post-info'><li><span><i class='fa fa-calendar'></i> " + entry['date'] +
       " </span></li>" + "<li><span><i class='fa fa-caret-right'></i> " + entry['category'] +
-      "</span></li>" + "<li><img src=\"/assets/images/lang/" + entry['language'] + ".svg\"></li>" +
+      "</span></li>" +
       "</ul>")
     $("<a href='" + entry['url'] + "' class='list-group-item'>")
         .append(title, info)
