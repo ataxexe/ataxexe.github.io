@@ -61,7 +61,7 @@ The next step, installing OpenShift, wasn't easy. After a lot of issues while ru
 
 From my laptop, I was using the external IP addresses, but, internally, the instances will be talking to each other using only internal IP addresses instead of the external ones. A classic mistake for a dev like me.
 
-With everything settled, I ran the playbook again... and got another error. OpenShift wasn't being able to talk with OpenStack in order to create persistent volumes using Cinder. The problem was solved upstream, a single line telling OpenShift to use the version `v2` of the OpenStack Block Storage API. So I wrote a little workaround to apply the fix to OCP 3.7, wrapped up everything in a playbook and pushed to [GitHub](https://github.com/devnull-tools/pack-your-lab/tree/master/openshift). With OCP 3.9 applying the fix from the upstream, I don't need my custom fix anymore, just the regular playbooks.
+With everything settled, I ran the playbook again... and got another error. OpenShift wasn't being able to talk with OpenStack in order to create persistent volumes using Cinder. The problem was solved upstream, a single line telling OpenShift to use the version `v2` of the OpenStack Block Storage API.
 
 The playbook can create all the instances with the Docker Storage mapped to a Cinder volume, all pre reqs done and the Ansible inventory file created, neat! With a single step I was able to bring up an OpenShift cluster. I ran it a lot of times on a weekend just to see things going on. That was "gigafun"!
 
